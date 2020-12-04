@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Meta tags -->
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8">
+    <meta name="HandheldFriendly" content="true" />
+    <!-- SEO -->
+    <title>Picture Test Post</title>
+    <meta name="title" content="Picture Test Post">
+    <meta name="description" content="An test of the blogging system">
+    <meta name="author" content="semidev">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="Picture Test Post">
+    <meta property="og:description" content="An test of the blogging system">
+    <meta property="og:image" content="">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="">
+    <meta property="twitter:title" content="Picture Test Post">
+    <meta property="twitter:description" content="An test of the blogging system">
+    <meta property="twitter:image" content="">
+    <!-- Require external JS files -->
+    <script src="/js/halfmoon.js"></script>
+    <script src="/js/main.js"></script>
+    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <link rel="manifest" href="/manifest.json" />
+    <!-- Require external CSS files -->
+    <link rel="stylesheet" href="/css/halfmoon.css" />
+	
+    <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+    <!-- Icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+</head>
+
+<body>
+    <!-- Page wrapper -->
+    <div class="page-wrapper">
+        <!-- Content wrapper with static navbars -->
+        <div class="content-wrapper">
+            <!-- Static navbar -->
+            <nav class="navbar">
+                <!-- Navbar content with toggle sidebar button -->
+                <div class="navbar-content">
+
+                </div>
+                <!-- Icon/brand -->
+                <a href="/" class="navbar-brand">
+                    <img src="https://cdn.glitch.com/f648f832-1dab-41a0-a2ec-8e3be00e552b%2F1F680_color.png?v=1602371731988" alt="..." />Blog of Semidev
+                </a>
+                <!-- Navbar buttons -->
+                <ul class="navbar-nav d-none d-md-flex">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/posts" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/contact" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/feed/feed.xml" class="nav-link">RSS</a>
+                    </li>
+					<li class="nav-item">
+                        <a href="https://www.youtube.com/channel/UCHBxr3a0Ny0HiuMycoUMOeg" class="nav-link">YouTube</a>
+                    </li>
+                </ul>
+                <!-- Darkmode toggle -->
+                <div class="navbar-content ml-auto">
+                    <!-- ml-auto = margin-left: auto -->
+                    <button class="btn btn-primary" type="button" onclick="halfmoon.toggleDarkMode();">🌙</button>
+                </div>
+            </nav>
+            <!-- Content -->
+            <div class="container-fluid">
+			<a id="top"></a>
+                <div id="post" style="margin-left:20px;margin-right:20px;word-wrap:break-word;">
+<h1>Picture Test Post</h1>
+
+<h3 id="yet-more-testing">Yet more testing <a class="direct-link" href="#yet-more-testing">#</a></h3>
+<p>Which is more of a safety issue?</p>
+<p><img src="/assets/2020-09-27_18.10.54.png" alt="Not actually from GK" width="800"><br>
+This from our private school server?</p>
+<p><img src="/assets/2020-10-17_20.06.22.png" alt="My first nether portal in Gameknight2k Season 3 " width="800"><br>
+or this funny use of grindstones</p>
+
+</div>
+<hr>
+<ul><li>Post after this: <a href="/posts/2020-10-18-test-post/">Test Post</a></li><li>Post before this: <a href="/posts/2020-10-11-welcome-to-rocket11ty/">Welcome to Rocket11ty</a></li>
+  <li><a href="#top">Back to the top</a></li>
+</ul>
+            </div>
+
+            <!-- Static bottom navbar -->
+            <nav class="navbar navbar-static-bottom">
+                <!-- Navbar text -->
+                <span class="navbar-text">
+                        &copy; <div id="year">2020</div>, semidev. All rights reserved.
+                    </span>
+            </nav>
+        </div>
+    </div>
+</body>
+<footer>
+    <script src="/js/script.js"></script>
+    <script type="text/javascript">
+  if (halfmoon.getPreferredMode() == "light-mode") {
+    // Light mode is preferred
+  }
+  else if (halfmoon.getPreferredMode() == "dark-mode") {
+    halfmoon.toggleDarkMode();
+  }
+  else if (halfmoon.getPreferredMode() == "not-set" && true) {
+    halfmoon.toggleDarkMode();
+  }
+    </script>
+</footer>
+
+</html>
